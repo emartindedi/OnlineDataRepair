@@ -51,9 +51,13 @@ In this section, we introduce the simulated dataset we employ to validate our pr
 general dimension.
 
 For the purpose of data visualization, let us consider $d = 3$ as the 
-dimension of the data. Let $n_{0} = 30$ and $n_{1} = 30$ the number of 
+dimension of the data. Let $n_{0} = 200$ and $n_{1} = 200$ the number of 
 instances of each protected class obtained from two multivariate normal 
 distributions on $\mathbb{R}^{3}$ with respective vector of means $\mu_{s} \in \mathbb{R}^{3}, s \in \{0,1\}$ and equal covariance matrix $\Sigma = \text{diag}(\sigma), \sigma \in \mathbb{R}^{3}$. 
+In order to obtain the online data, we simulated 80 values in total, 
+i.e. $n_{0, \text{new}} = 40$ and $n_{1, \text{new}} = 40$ instances of each protected 
+class obtained from $\mu_{s}, s \in \{0,1\}$.
+
 
 #### Total repair procedure to offline data 
 
