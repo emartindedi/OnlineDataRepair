@@ -62,7 +62,7 @@ class obtained from $\mu_{s}, s \in \{0,1\}$.
 #### Total repair procedure to offline data 
 
 Total repair procedure amount to mapping the original variable $X$ (without considering $S$) 
-into a new variable $ \Tilde{X} = T_{s}(X)$ such that the conditional distributions with 
+into a new variable $\tilde{X} = T_{s}(X)$ such that the conditional distributions with 
 respect to $S$ are the same.
 
 <img src="img/data.png" alt="Simulated dataset" width="740"/>
