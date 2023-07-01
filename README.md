@@ -22,6 +22,8 @@ computational costs.
 An open source implementation in Python language of the algorithm is provided, and several experiments show that the 
 proposed method is promising in bridging the gap between continuous and empirical transport.
 
+<img src="img/TFM-general-picture.pdf" alt="web" width="740"/>
+
 ## Installation
 
 Tested on Windows (Python 3.8 and Python 3.9):
