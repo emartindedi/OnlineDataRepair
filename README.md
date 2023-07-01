@@ -58,14 +58,21 @@ distributions on $\mathbb{R}^{3}$ with respective vector of means $\mu_{s} \in \
 #### Total repair procedure to offline data 
 
 Total repair procedure amount to mapping the original variable $X$ (without considering $S$) 
-into a new variable $\Tilde{X} = T_{s}(X)$ such that the conditional distributions with 
+into a new variable $ \Tilde{X} = T_{s}(X)$ such that the conditional distributions with 
 respect to $S$ are the same.
 
 <img src="img/data.png" alt="Simulated dataset" width="740"/>
 
-
-
 #### Online data
+We presented the resutls of a formal procedure that requires both the original features and the transformed features 
+as input data. 
+The purpose of this procedure is to obtain an interpolation function capable of generating the repaired version 
+of any point within the domain. 
+
+- Group S = 0 (unfavored)
+    <img src="img/rep_group_0.png" alt="S0" width="740"/>
+- Group S = 1 (favored)
+    <img src="img/rep_group_1.png" alt="S1" width="740"/>
 
 ## Dependencies
 
