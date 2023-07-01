@@ -61,7 +61,7 @@ Total repair procedure amount to mapping the original variable $X$ (without cons
 into a new variable $\Tilde{X} = T_{s}(X)$ such that the conditional distributions with 
 respect to $S$ are the same.
 
-<img src="OnlineDataRepair/img/data.png" alt="Simulated dataset" width="740"/>
+<img src="img/data.png" alt="Simulated dataset" width="740"/>
 
 
 
