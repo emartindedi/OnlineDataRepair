@@ -90,6 +90,17 @@ The ideas of this thesis have appeared previously in the following international
 - De Diego, E. M., Gordaliza, P., López-Fidalgo, J. (2023, June 05-07). Online data repair towards demographic parity implemented in Python. In VI Scientific Congress of Young researchers in Experimental Design and Data Science (JEDE 6), Pamplona (Spain). [Conference presentation]. http://dx.doi.org/doi.org/10.15581/028.00001
 - De Diego, E. M., Gordaliza, P., López-Fidalgo, J. (2023, June 08-09). An efficient Machine Learning pipeline for online data repair towards demographic parity. In 5th Bilbao Data Science Workshop, Bilbao (Spain). [Poster presentation]. http://bcamath.acc.com.es/events/bidas5/en/
 
+## Citation
+
+@software{Online_Data_Repair_2023,
+  author = {De-Diego, Elena M. and Gordaliza, Paula and López-Fidalgo, Jesús},
+  month = {07},
+  title = {{Online Data Repair approach}},
+  url = {https://github.com/emartindedi/OnlineDataRepair},
+  version = {1.0.0},
+  year = {2023}
+}
+
 
 ## Contributors
 
