@@ -55,6 +55,17 @@ dimension of the data. Let $n_{0} = 30$ and $n_{1} = 30$ the number of
 instances of each protected class obtained from two multivariate normal 
 distributions on $\mathbb{R}^{3}$ with respective vector of means $\mu_{s} \in \mathbb{R}^{3}, s \in \{0,1\}$ and equal covariance matrix $\Sigma = \text{diag}(\sigma), \sigma \in \mathbb{R}^{3}$. 
 
+#### Total repair procedure to offline data 
+
+Total repair procedure amount to mapping the original variable $X$ (without considering $S$) 
+into a new variable $\Tilde{X} = T_{s}(X)$ such that the conditional distributions with 
+respect to $S$ are the same.
+
+<img src="OnlineDataRepair/img/data.png" alt="Simulated dataset" width="740"/>
+
+
+
+#### Online data
 
 ## Dependencies
 
