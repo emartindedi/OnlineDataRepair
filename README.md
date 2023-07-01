@@ -38,7 +38,7 @@ For download it locally:
 ## Usage
 
 - **Directory ODR** (Online Data Repair - One dimensional data)
-  - `main.py`: the function <span style="color:lightblue">run_OT_extension(input_min, input_def, x_0, dim = 1, grupo, opcion_rep)</span> computes the repair value for the new point x. 
+  - `main.py`: the function <span style="color:blue">run_OT_extension(input_min, input_def, x_0, dim = 1, grupo, opcion_rep)</span> computes the repair value for the new point x. 
     
 
 ## Examples
