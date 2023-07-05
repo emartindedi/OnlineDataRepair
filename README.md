@@ -38,8 +38,11 @@ For download it locally:
 ## Usage
 
 - **Directory ODR** (Online Data Repair - One dimensional data)
-  - `main.py`: the function <span style="color:blue">run_OT_extension(input_min, input_def, x_0, dim = 1, grupo, opcion_rep, rtol=1e-6, maxiter=100, default_step_size=0.2)</span> 
+  - `main.py`: the function <span style="color:Blue">run_OT_extension()</span> 
   computes the repair value for the new point x in R.
+  ```python
+  run_OT_extension(input_min, input_def, x_0, dim = 1, grupo, opcion_rep, rtol=1e-6, maxiter=100, default_step_size=0.2)
+  ```
 
 - **Directory ODR_general_dimension** (Online Data Repair - General dimensional data)
   - `main.py`: the function <span style="color:blue">run_OT_extension_gen_dim(input_0, input_1, x, dim, grupo, opcion_rep, rtol=1e-6, maxiter=100, default_step_size=0.2)</span> 
@@ -111,3 +114,8 @@ Paula Gordaliza Pastor <pgordaliza@bcamath.org>
 Jesús López Fidalgo <fidalgo@unav.es>
 
 [Universidad de Navarra - DATAI](https://www.unav.edu/web/instituto-de-ciencia-de-los-datos-e-inteligencia-artificial)
+
+
+## Acknowledgements
+
+The authors thank the funding by MRR Investigo Program. 
