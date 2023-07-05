@@ -45,8 +45,11 @@ For download it locally:
   ```
 
 - **Directory ODR_general_dimension** (Online Data Repair - General dimensional data)
-  - `main.py`: the function <span style="color:blue">run_OT_extension_gen_dim(input_0, input_1, x, dim, grupo, opcion_rep, rtol=1e-6, maxiter=100, default_step_size=0.2)</span> 
+  - `main.py`: the function <span style="color:Blue">run_OT_extension_gen_dim()</span> 
   computes the repair array for the new point x in Rd. 
+  ```python
+  run_OT_extension_gen_dim(input_0, input_1, x_0, dim=dim, grupo, opcion_rep, rtol=1e-6, maxiter=100, default_step_size=0.2)
+  ```
 
 ## Examples
 
